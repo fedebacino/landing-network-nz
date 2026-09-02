@@ -46,8 +46,8 @@ export default function Navbar() {
       <header
         className={`sticky top-0 z-40 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/98 backdrop-blur-md shadow-md py-3'
-            : 'bg-white py-4 sm:py-5 border-b border-slate-100'
+            ? 'bg-white/95 backdrop-blur-md shadow-md py-2 sm:py-2.5'
+            : 'bg-white py-2.5 sm:py-3 border-b border-slate-100'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -56,7 +56,7 @@ export default function Navbar() {
             <img
               src="/assets/logo-network.png"
               alt="Network - Viajes | Turismo | Educación"
-              className="h-20 sm:h-24 lg:h-28 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-sm"
+              className="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
             />
           </a>
 
