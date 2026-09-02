@@ -3,6 +3,7 @@ import { Send, CheckCircle2, Calendar, Clock, MapPin, Sparkles, AlertCircle, Pho
 import confetti from 'canvas-confetti';
 import WhatsAppIcon from './WhatsAppIcon';
 import { schoolsData } from '../data/schoolsData';
+import { config } from '../config';
 
 export default function LeadForm({ selectedSchool = null }) {
   const [formData, setFormData] = useState({
@@ -111,7 +112,7 @@ export default function LeadForm({ selectedSchool = null }) {
     }
 
     // 2. Enviar a Google Sheets vía Webhook
-    const sheetsUrl = import.meta.env.VITE_GOOGLE_SHEETS_URL || "";
+    const sheetsUrl = config.googleSheetsUrl || import.meta.env.VITE_GOOGLE_SHEETS_URL || "";
     if (sheetsUrl) {
       try {
         await fetch(sheetsUrl, {
