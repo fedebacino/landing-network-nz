@@ -456,7 +456,7 @@ export default function LeadForm({ selectedSchool = null }) {
                   )}
                 </button>
                 <p className="text-center text-[11px] text-slate-400 mt-2">
-                  🔒 Tus datos están 100% protegidos por Network. No enviamos spam. Entrada gratuita y cupos limitados.
+                  🔒 Tus datos están 100% protegidos por Network. Entrada gratuita y cupos limitados.
                 </p>
               </div>
 
