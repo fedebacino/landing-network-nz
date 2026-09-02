@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-4 text-blue-200 text-xs">
             <span>6 Directoras de Colegios en persona</span>
             <span className="text-white/40">•</span>
-            <span className="text-network-green font-semibold">Entrada Gratuita con Registro</span>
+            <span className="text-network-green font-semibold">Entrada Gratuita con Registro Previo</span>
           </div>
         </div>
       </div>
