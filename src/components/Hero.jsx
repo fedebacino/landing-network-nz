@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, MapPin, ShieldCheck, Award, Users, CheckCircle, ArrowRight, Plane, Star } from 'lucide-react';
+import { Calendar, MapPin, ShieldCheck, Award, Users, CheckCircle, ArrowRight, Plane } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
 
 export default function Hero({ onSelectSchool }) {
@@ -91,23 +91,6 @@ export default function Hero({ onSelectSchool }) {
               >
                 <span>Ver los 6 Colegios</span>
               </a>
-            </div>
-
-            {/* Social Proof Mini */}
-            <div className="pt-2 flex items-center justify-center lg:justify-start gap-3 text-xs text-blue-200">
-              <div className="flex -space-x-2">
-                <img className="w-7 h-7 rounded-full border-2 border-network-blue object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" alt="Alumna" />
-                <img className="w-7 h-7 rounded-full border-2 border-network-blue object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&q=80" alt="Alumno" />
-                <img className="w-7 h-7 rounded-full border-2 border-network-blue object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=80" alt="Alumna" />
-              </div>
-              <div className="flex items-center gap-1 text-network-green">
-                <Star className="w-3.5 h-3.5 fill-current" />
-                <Star className="w-3.5 h-3.5 fill-current" />
-                <Star className="w-3.5 h-3.5 fill-current" />
-                <Star className="w-3.5 h-3.5 fill-current" />
-                <Star className="w-3.5 h-3.5 fill-current" />
-              </div>
-              <span>Cientos de familias ya viajaron con nosotros</span>
             </div>
           </div>
 
