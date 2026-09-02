@@ -150,7 +150,7 @@ export default function SchoolsGrid({ onSelectSchool }) {
               ¿No estás seguro de cuál es el colegio ideal para tu hijo/a?
             </h4>
             <p className="text-blue-200 text-sm sm:text-base max-w-2xl">
-              En el evento del 17 de septiembre, el equipo de consejeros de <strong>Network</strong> te ayudará a evaluar el perfil del estudiante y coordinar entrevistas con los colegios que mejor coincidan con sus intereses y personalidad.
+              En el evento del 17 de septiembre, te acompañaremos y guiaremos para que puedas elegir la opción que mejor coincida con sus intereses y personalidad.
             </p>
           </div>
           <a
