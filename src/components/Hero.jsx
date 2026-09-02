@@ -31,13 +31,13 @@ export default function Hero({ onSelectSchool }) {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
               Estudiá en <span className="text-transparent bg-clip-text bg-gradient-to-r from-network-green to-[#d4ff6b]">Nueva Zelanda</span>
               <span className="block mt-2 text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-100 font-sans">
-                Conocé cara a cara a las directoras de 6 colegios de primer nivel
+                Conocé personalmente a las directoras de 6 colegios secundarios de primer nivel
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-base sm:text-lg text-blue-100/90 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              Un encuentro presencial y exclusivo en Buenos Aires para <strong>estudiantes secundarios</strong> y <strong>sus familias</strong>. Descubrí cómo vivir una experiencia educativa y de vida transformadora en el país más seguro del mundo, con el respaldo integral de <strong className="text-white">Network</strong>.
+              Un encuentro presencial y exclusivo en Buenos Aires para <strong>estudiantes secundarios</strong> y <strong>sus familias</strong>. Descubrí cómo vivir una experiencia educativa en uno de los países más seguro del mundo.
             </p>
 
             {/* Key Value Bullets */}
@@ -53,8 +53,8 @@ export default function Hero({ onSelectSchool }) {
               <div className="flex items-start gap-2.5 bg-white/5 border border-white/10 rounded-xl p-3 backdrop-blur-sm">
                 <ShieldCheck className="w-5 h-5 text-network-green shrink-0 mt-0.5" />
                 <div>
-                  <strong className="block text-white">Convalidación de materias</strong>
-                  <span className="text-blue-200 text-xs">Homologación garantizada en Argentina</span>
+                  <strong className="block text-white">Trayectoria</strong>
+                  <span className="text-blue-200 text-xs">+ de 30 años acompañando experiencias educativas </span>
                 </div>
               </div>
 
@@ -137,23 +137,23 @@ export default function Hero({ onSelectSchool }) {
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                   <span className="font-semibold text-white">Long Bay College</span>
-                  <span className="text-blue-200">Auckland Costa</span>
+                  <span className="text-blue-200">Auckland</span>
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                   <span className="font-semibold text-white">Liston College</span>
-                  <span className="text-blue-200">Auckland (Varones)</span>
+                  <span className="text-blue-200">Auckland</span>
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                   <span className="font-semibold text-white">Taupo-nui-a-Tia College</span>
-                  <span className="text-blue-200">Taupo (Outdoor)</span>
+                  <span className="text-blue-200">Taupo</span>
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                   <span className="font-semibold text-white">Paraparaumu College</span>
-                  <span className="text-blue-200">Kapiti Coast</span>
+                  <span className="text-blue-200">Wellington</span>
                 </div>
                 <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
                   <span className="font-semibold text-white">King's High School</span>
-                  <span className="text-blue-200">Dunedin (Varones)</span>
+                  <span className="text-blue-200">Dunedin</span>
                 </div>
               </div>
 
