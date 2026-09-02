@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, HelpCircle } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 import { faqData } from '../data/schoolsData';
 
 export default function FAQ() {
@@ -73,8 +74,9 @@ export default function FAQ() {
             href="https://wa.me/5491100000000?text=Hola!%20Tengo%20una%20consulta%20sobre%20el%20evento%20de%20Nueva%20Zelanda"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-xs font-bold text-network-blue hover:text-network-blue-light hover:underline"
+            className="inline-flex items-center gap-2 text-xs font-bold text-slate-800 bg-white hover:bg-slate-100 border border-slate-200 py-2.5 px-4 rounded-xl shadow-sm transition-all"
           >
+            <WhatsAppIcon colored={true} className="w-5 h-5" />
             <span>Escribinos por WhatsApp directo &rarr;</span>
           </a>
         </div>

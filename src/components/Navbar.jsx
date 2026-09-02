@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, MapPin, Sparkles, Menu, X, ArrowRight, MessageCircle } from 'lucide-react';
+import { Calendar, Clock, MapPin, Sparkles, Menu, X, ArrowRight } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -86,10 +87,10 @@ export default function Navbar() {
               href="https://wa.me/5491100000000?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento%20de%20colegios%20de%20Nueva%20Zelanda%20del%2017%20de%20septiembre"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 text-slate-600 hover:text-green-600 hover:bg-green-50 rounded-xl transition-all"
-              title="Consultar por WhatsApp"
+              className="p-1 hover:scale-110 active:scale-95 transition-transform"
+              title="Consultar por WhatsApp oficial"
             >
-              <MessageCircle className="w-5 h-5 text-green-600" />
+              <WhatsAppIcon colored={true} className="w-8 h-8 drop-shadow-sm" />
             </a>
 
             <a

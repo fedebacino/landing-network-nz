@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Mail, Globe, ArrowUp, Phone } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -32,6 +33,16 @@ export default function Footer() {
                 title="Sitio Web Oficial"
               >
                 <Globe className="w-4 h-4" />
+              </a>
+              {/* WhatsApp Icon */}
+              <a
+                href="https://wa.me/5491100000000?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento%20de%20colegios%20de%20Nueva%20Zelanda%20del%2017%20de%20septiembre"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#25D366] text-white flex items-center justify-center transition-all"
+                title="WhatsApp Oficial"
+              >
+                <WhatsAppIcon className="w-4 h-4" />
               </a>
               {/* Instagram SVG */}
               <a

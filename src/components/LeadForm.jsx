@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Send, CheckCircle2, Calendar, Clock, MapPin, Sparkles, AlertCircle, Phone, Mail, User, BookOpen, Heart, Download, MessageCircle } from 'lucide-react';
+import { Send, CheckCircle2, Calendar, Clock, MapPin, Sparkles, AlertCircle, Phone, Mail, User, BookOpen, Heart, Download } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import WhatsAppIcon from './WhatsAppIcon';
 import { schoolsData } from '../data/schoolsData';
 
 export default function LeadForm({ selectedSchool = null }) {
@@ -194,9 +195,9 @@ export default function LeadForm({ selectedSchool = null }) {
                   href={`https://wa.me/5491100000000?text=Hola!%20Acabo%20de%20registrarme%20para%20el%20evento%20de%20Nueva%20Zelanda%20del%2017%20de%20Septiembre%20a%20nombre%20de%20${encodeURIComponent(submittedData?.parentName || '')}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold text-sm px-6 py-3.5 rounded-xl shadow-md transition-all"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm px-6 py-3.5 rounded-xl shadow-md transition-all"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <WhatsAppIcon className="w-5 h-5" />
                   <span>Confirmar por WhatsApp</span>
                 </a>
               </div>

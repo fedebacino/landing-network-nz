@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { MessageCircle, X } from 'lucide-react';
+import { X } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 
 export default function FloatingWhatsApp() {
   const [showTooltip, setShowTooltip] = useState(true);
@@ -27,10 +28,10 @@ export default function FloatingWhatsApp() {
         href="https://wa.me/5491100000000?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento%20de%20colegios%20de%20Nueva%20Zelanda%20del%2017%20de%20septiembre"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-14 h-14 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all glow-effect"
+        className="w-14 h-14 hover:scale-110 active:scale-95 transition-transform drop-shadow-2xl flex items-center justify-center glow-effect"
         title="Chatear por WhatsApp con Network"
       >
-        <MessageCircle className="w-7 h-7 fill-current" />
+        <WhatsAppIcon colored={true} className="w-14 h-14" />
       </a>
     </div>
   );
