@@ -5,7 +5,7 @@ export const schoolsData = [
     city: "Auckland Sur",
     region: "Auckland",
     type: "Mixto (Co-educacional)",
-    image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1000&q=80",
+    image: "/assets/rosehill-college.jpg",
     badgeColor: "bg-blue-600",
     highlight: "Campus espacioso y líder en artes y ciencias",
     description: "Ubicado en un entorno verde y espacioso, Rosehill ofrece una formación integral con programas líderes en ciencias aplicadas, robótica, artes escénicas y más de 30 disciplinas deportivas.",
