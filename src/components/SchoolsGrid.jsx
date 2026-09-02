@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, CheckCircle, GraduationCap, Star, ArrowRight, Compass, Shield, Award, Users } from 'lucide-react';
+import { MapPin, GraduationCap, ArrowRight } from 'lucide-react';
 import { schoolsData } from '../data/schoolsData';
 
 export default function SchoolsGrid({ onSelectSchool }) {
@@ -96,78 +96,48 @@ export default function SchoolsGrid({ onSelectSchool }) {
               key={school.id}
               className="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col group"
             >
-              {/* Image & Badges */}
-              <div className="relative h-56 overflow-hidden bg-slate-900">
+              {/* Image with Name & Location Overlays */}
+              <div className="relative h-72 sm:h-80 overflow-hidden bg-slate-900">
                 <img
                   src={school.image}
                   alt={school.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/30 to-transparent"></div>
                 
-                {/* Location Badge */}
-                <div className="absolute top-4 left-4">
-                  <span className="inline-flex items-center gap-1.5 bg-white/95 backdrop-blur-md text-network-blue-dark text-xs font-bold px-3 py-1 rounded-full shadow-md">
+                {/* Location & Type Badges */}
+                <div className="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                  <span className="inline-flex items-center gap-1.5 bg-white/95 backdrop-blur-md text-network-blue-dark text-xs font-bold px-3 py-1.5 rounded-full shadow-md">
                     <MapPin className="w-3.5 h-3.5 text-network-blue" />
                     {school.city}
                   </span>
-                </div>
 
-                {/* Type Badge */}
-                <div className="absolute top-4 right-4">
-                  <span className="bg-network-blue-dark/80 backdrop-blur-md text-white text-[11px] font-semibold px-2.5 py-1 rounded-full border border-white/20">
+                  <span className="bg-network-blue-dark/85 backdrop-blur-md text-white text-[11px] font-semibold px-2.5 py-1 rounded-full border border-white/20">
                     {school.type}
                   </span>
                 </div>
 
-                {/* School Name on Image Bottom */}
-                <div className="absolute bottom-4 left-4 right-4">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-network-green">
+                {/* School Name & Tag on Image Bottom */}
+                <div className="absolute bottom-4 left-5 right-5">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-network-green block">
                     {school.tag}
                   </span>
-                  <h3 className="text-xl font-extrabold text-white leading-tight mt-0.5">
+                  <h3 className="text-xl sm:text-2xl font-extrabold text-white leading-tight mt-0.5 drop-shadow-sm">
                     {school.name}
                   </h3>
                 </div>
               </div>
 
-              {/* Card Body */}
-              <div className="p-6 flex-1 flex flex-col justify-between space-y-5">
-                <div>
-                  {/* Highlight box */}
-                  <div className="bg-slate-50 border-l-4 border-network-green p-3 rounded-r-xl mb-4">
-                    <p className="text-xs font-semibold text-slate-800 italic">
-                      "{school.highlight}"
-                    </p>
-                  </div>
-
-                  <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                    {school.description}
-                  </p>
-
-                  {/* Bullet points */}
-                  <div className="space-y-2.5">
-                    {school.features.map((feat, idx) => (
-                      <div key={idx} className="flex items-start gap-2 text-xs text-slate-700">
-                        <CheckCircle className="w-4 h-4 text-network-green shrink-0 mt-0.5" />
-                        <span>{feat}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* CTA Button */}
-                <div className="pt-4 border-t border-slate-100">
-                  <button
-                    onClick={() => handleChooseSchool(school.name)}
-                    className="w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-network-blue hover:text-white text-network-blue-dark font-bold text-xs sm:text-sm py-3 px-4 rounded-xl transition-all group/btn"
-                  >
-                    <span>Quiero entrevistar a este colegio</span>
-                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </button>
-                </div>
-
+              {/* Action Button */}
+              <div className="p-4 sm:p-5 bg-white">
+                <button
+                  onClick={() => handleChooseSchool(school.name)}
+                  className="w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-network-blue hover:text-white text-network-blue-dark font-bold text-sm py-3.5 px-4 rounded-2xl transition-all group/btn shadow-sm"
+                >
+                  <span>Pedir entrevista con este colegio</span>
+                  <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                </button>
               </div>
             </div>
           ))}
