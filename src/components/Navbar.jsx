@@ -84,7 +84,7 @@ export default function Navbar() {
           {/* Action CTAs */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href="https://wa.me/5491100000000?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento%20de%20colegios%20de%20Nueva%20Zelanda%20del%2017%20de%20septiembre"
+              href="https://wa.me/5491170083601?text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20evento%20de%20colegios%20de%20Nueva%20Zelanda%20del%2017%20de%20septiembre"
               target="_blank"
               rel="noopener noreferrer"
               className="p-1 hover:scale-110 active:scale-95 transition-transform"

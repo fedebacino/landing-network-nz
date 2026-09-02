@@ -71,7 +71,7 @@ export default function FAQ() {
             Nuestro equipo de Network está a tu disposición para ayudarte.
           </p>
           <a
-            href="https://wa.me/5491100000000?text=Hola!%20Tengo%20una%20consulta%20sobre%20el%20evento%20de%20Nueva%20Zelanda"
+            href="https://wa.me/5491170083601?text=Hola!%20Tengo%20una%20consulta%20sobre%20el%20evento%20de%20Nueva%20Zelanda"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs font-bold text-slate-800 bg-white hover:bg-slate-100 border border-slate-200 py-2.5 px-4 rounded-xl shadow-sm transition-all"
