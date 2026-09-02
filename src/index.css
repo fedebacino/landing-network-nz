@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-network-charcoal bg-[#FAFCFF] overflow-x-hidden;
+  }
+}
+
+/* Custom Gradients and Animations */
+.bg-radial-hero {
+  background: radial-gradient(circle at 50% 20%, rgba(7, 22, 137, 0.95) 0%, rgba(4, 14, 91, 1) 100%);
+}
+
+.brand-rainbow-bar {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #bd2923 0%,
+    #cf7927 14.28%,
+    #e5c12f 28.56%,
+    #99c23b 42.84%,
+    #92c4ee 57.12%,
+    #3b82f6 71.4%,
+    #777293 85.68%,
+    #bd1979 100%
+  );
+}
+
+.glow-effect {
+  box-shadow: 0 0 40px -10px rgba(153, 194, 59, 0.4);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
