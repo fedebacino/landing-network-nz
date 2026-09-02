@@ -132,7 +132,7 @@ export default function LeadForm({ selectedSchool = null }) {
             Reservá tu lugar en el evento
           </h2>
           <p className="text-slate-600 text-sm sm:text-base mt-3">
-            Completá el formulario para recibir tu confirmación y acreditación personalizada para el <strong>17 de septiembre a las 19:00 hs en Buenos Aires</strong>.
+            Completá el formulario para recibir tu confirmación para el <strong>17 de septiembre a las 19:00 hs en Buenos Aires</strong>.
           </p>
         </div>
 
@@ -384,6 +384,7 @@ export default function LeadForm({ selectedSchool = null }) {
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-network-blue transition-all"
                   >
+                    <option value="6 Semanas">6 Semanas</option>
                     <option value="1 Term (~10 semanas)">1 Term (~10 semanas)</option>
                     <option value="1 Semestre (~6 meses)">1 Semestre (~6 meses)</option>
                     <option value="1 Año Escolar Completo">1 Año Escolar Completo</option>
