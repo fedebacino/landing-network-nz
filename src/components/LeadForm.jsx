@@ -115,7 +115,7 @@ export default function LeadForm({ selectedSchool = null }) {
   };
 
   // Google Calendar Event Link
-  const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Evento Colegios de Nueva Zelanda - Network")}&dates=20260917T180000/20260917T210000&details=${encodeURIComponent("Encuentro presencial con las directoras de 6 colegios de Nueva Zelanda organizado por Network (Viajes | Turismo | Educación).")}&location=${encodeURIComponent("Buenos Aires, Argentina")}`;
+  const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Evento Colegios de Nueva Zelanda - Network")}&dates=20260917T190000/20260917T220000&details=${encodeURIComponent("Encuentro presencial con las directoras de 6 colegios de Nueva Zelanda organizado por Network (Viajes | Turismo | Educación).")}&location=${encodeURIComponent("Buenos Aires, Argentina")}`;
 
   return (
     <section id="registro" className="py-20 bg-gradient-to-b from-white via-slate-50 to-slate-100 relative">
@@ -131,7 +131,7 @@ export default function LeadForm({ selectedSchool = null }) {
             Reservá tu lugar en el evento
           </h2>
           <p className="text-slate-600 text-sm sm:text-base mt-3">
-            Completá el formulario para recibir tu confirmación y acreditación personalizada para el <strong>17 de septiembre en Buenos Aires</strong>.
+            Completá el formulario para recibir tu confirmación y acreditación personalizada para el <strong>17 de septiembre a las 19:00 hs en Buenos Aires</strong>.
           </p>
         </div>
 
@@ -162,7 +162,7 @@ export default function LeadForm({ selectedSchool = null }) {
               <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 max-w-md mx-auto text-left text-xs sm:text-sm space-y-2">
                 <div className="flex items-center gap-2 text-slate-800 font-semibold">
                   <Calendar className="w-4 h-4 text-network-blue" />
-                  <span>Fecha: Martes 17 de Septiembre</span>
+                  <span>Fecha: Martes 17 de Septiembre • 19:00 hs</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-800 font-semibold">
                   <MapPin className="w-4 h-4 text-network-blue" />

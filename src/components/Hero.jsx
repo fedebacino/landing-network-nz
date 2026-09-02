@@ -22,7 +22,7 @@ export default function Hero({ onSelectSchool }) {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2 rounded-full text-xs sm:text-sm font-semibold text-blue-100 shadow-inner">
               <span className="w-2.5 h-2.5 rounded-full bg-network-green animate-ping"></span>
               <MapPin className="w-4 h-4 text-network-green" />
-              <span>Buenos Aires • 17 de Septiembre</span>
+              <span>Buenos Aires • 17 de Septiembre • 19:00 hs</span>
               <span className="text-white/40">|</span>
               <span className="text-network-green font-bold">Cupos Limitados</span>
             </div>

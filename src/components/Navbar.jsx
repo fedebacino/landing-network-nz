@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, MapPin, Sparkles, Menu, X, ArrowRight, MessageCircle } from 'lucide-react';
+import { Calendar, Clock, MapPin, Sparkles, Menu, X, ArrowRight, MessageCircle } from 'lucide-react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,9 +25,10 @@ export default function Navbar() {
             <span className="flex items-center gap-1 font-medium text-blue-100">
               <MapPin className="w-3.5 h-3.5 text-network-green" /> Buenos Aires
             </span>
-            <span className="text-white/40 hidden sm:inline">•</span>
-            <span className="flex items-center gap-1 font-semibold text-white">
+            <span className="flex items-center gap-1.5 font-semibold text-white">
               <Calendar className="w-3.5 h-3.5 text-network-green" /> 17 de Septiembre
+              <span className="text-white/40">•</span>
+              <Clock className="w-3.5 h-3.5 text-network-green" /> 19:00 hs
             </span>
           </div>
 

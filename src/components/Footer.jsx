@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="space-y-2 text-blue-200">
               <li className="flex items-start gap-2">
                 <span className="text-network-green font-bold">•</span>
-                <span>Martes 17 de Septiembre</span>
+                <span>Martes 17 de Septiembre • 19:00 hs</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-network-green font-bold">•</span>

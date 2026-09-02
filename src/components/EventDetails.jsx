@@ -103,10 +103,10 @@ export default function EventDetails() {
             </div>
             <div>
               <h4 className="font-bold text-white text-lg sm:text-xl">
-                Martes 17 de Septiembre
+                Martes 17 de Septiembre • 19:00 hs
               </h4>
               <p className="text-blue-200 text-xs sm:text-sm">
-                Buenos Aires, Argentina • Horarios asignados para evitar esperas
+                Buenos Aires, Argentina • Recepción puntual
               </p>
             </div>
           </div>

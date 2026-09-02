@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, Sparkles } from 'lucide-react';
 
-export default function CountdownTimer({ targetDate = "2026-09-17T09:00:00" }) {
+export default function CountdownTimer({ targetDate = "2026-09-17T19:00:00" }) {
   const calculateTimeLeft = () => {
-    // Target date set to September 17th of the current event year
-    const target = new Date("2026-09-17T18:00:00-03:00").getTime();
+    // Target date set to September 17th 19:00 hs Buenos Aires
+    const target = new Date("2026-09-17T19:00:00-03:00").getTime();
     const now = new Date().getTime();
     const difference = target - now;
 
