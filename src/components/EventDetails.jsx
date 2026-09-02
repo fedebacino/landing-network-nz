@@ -18,7 +18,7 @@ export default function EventDetails() {
             ¿Cómo será la dinámica del evento?
           </h2>
           <p className="text-blue-100 text-base sm:text-lg mt-4">
-            Un formato ágil, cálido y personalizado para que aproveches al máximo cada minuto con las delegadas de Nueva Zelanda y el equipo de Network.
+            Un formato ágil, cálido y personalizado para que aproveches el encuentro conversando con las directoras de Nueva Zelanda y el equipo de Network.
           </p>
         </div>
 
@@ -33,12 +33,12 @@ export default function EventDetails() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Acreditación y Bienvenida</h3>
               <p className="text-blue-200 text-xs sm:text-sm leading-relaxed">
-                Recepción exclusiva de las familias registradas con entrega de carpeta informativa, folletería de cada colegio y credencial de acceso.
+                Recepción de las familias registradas al evento.
               </p>
             </div>
             <div className="pt-2 flex items-center gap-1.5 text-xs text-network-green font-semibold">
               <Coffee className="w-4 h-4" />
-              <span>Coffee Break & Networking</span>
+              <span>Coffee Break</span>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ export default function EventDetails() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Charla Introductoria</h3>
               <p className="text-blue-200 text-xs sm:text-sm leading-relaxed">
-                Breve presentación sobre cómo funciona el año escolar en Nueva Zelanda, el estilo de vida kiwi y el sistema de convalidaciones en Argentina.
+                Breve presentación sobre cómo funciona el año escolar en Nueva Zelanda, el estilo de vida kiwi y el sistema educativo.
               </p>
             </div>
             <div className="pt-2 flex items-center gap-1.5 text-xs text-network-green font-semibold">
@@ -65,9 +65,9 @@ export default function EventDetails() {
               <div className="w-10 h-10 rounded-2xl bg-network-green text-network-blue-dark font-black flex items-center justify-center text-lg mb-4 shadow-md">
                 3
               </div>
-              <h3 className="text-lg font-bold text-white mb-2">Entrevistas 1 a 1</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Presentación de cada colegio</h3>
               <p className="text-blue-200 text-xs sm:text-sm leading-relaxed">
-                Espacio de mesas privadas para conversar directamente con las directoras y representantes de los colegios que más te interesen (con traducción si se requiere).
+                Cada representante presentara su escuela, ubicación, tamaño, materias, deportes que ofrece y precios.
               </p>
             </div>
             <div className="pt-2 flex items-center gap-1.5 text-xs text-network-green font-semibold">
@@ -84,7 +84,7 @@ export default function EventDetails() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Plan de Viaje con Network</h3>
               <p className="text-blue-200 text-xs sm:text-sm leading-relaxed">
-                Asesoramiento con nuestros consultores sobre cotizaciones, formas de pago, fechas de inicio (febrero / julio), trámite de visas y pasos a seguir.
+                Asesoramiento integral incluyendo cotizaciones, formas de pago, fechas de inicio, trámite de visa y pasos a seguir.
               </p>
             </div>
             <div className="pt-2 flex items-center gap-1.5 text-xs text-network-green font-semibold">
