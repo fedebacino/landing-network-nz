@@ -116,7 +116,7 @@ export const faqData = [
   },
   {
     question: "¿Dónde y en qué horario se llevará a cabo el evento?",
-    answer: "El evento se realizará en un prestigioso hotel/centro de eventos en la Ciudad Autónoma de Buenos Aires (zona céntrica y de fácil acceso). Al confirmar tu registro, te enviaremos por WhatsApp y correo electrónico la dirección exacta, el horario asignado y las opciones de estacionamiento."
+    answer: "El evento se realizará a las 19hs en la Ciudad Autónoma de Buenos Aires (zona céntrica y de fácil acceso). Al confirmar tu registro, te enviaremos por WhatsApp y correo electrónico la dirección exacta."
   },
   {
     question: "¿Quiénes deben asistir al evento?",
@@ -127,15 +127,11 @@ export const faqData = [
     answer: "No es obligatorio tener un inglés perfecto. Los colegios de Nueva Zelanda cuentan con departamentos especializados de ESOL (English for Speakers of Other Languages) para apoyar a los estudiantes internacionales en su adaptación lingüística y académica desde el primer día."
   },
   {
-    question: "¿Se convalidan los estudios cursados en Nueva Zelanda al regresar a Argentina?",
-    answer: "¡Sí! En Network gestionamos todo el proceso oficial de legalización, apostillado de La Haya y homologación ante el Ministerio de Educación de Argentina para que el estudiante no pierda el año escolar al regresar."
-  },
-  {
     question: "¿Qué duración puede tener la estadía en Nueva Zelanda?",
-    answer: "Hay opciones flexibles adaptadas a cada necesidad: desde 1 Term (aproximadamente 10 semanas), 1 Semestre (2 Terms / medio año) hasta 1 Año Escolar Completo o la secundaria completa para graduarse con el título oficial de Nueva Zelanda (NCEA)."
+    answer: "Hay opciones flexibles adaptadas a cada necesidad: desde 6 Semanas, 1 Term (aproximadamente 10 semanas), 1 Semestre (2 Terms / medio año) hasta 1 Año Escolar Completo o la secundaria completa para graduarse con el título oficial de Nueva Zelanda (NCEA)."
   },
   {
     question: "¿Cómo es el alojamiento de los estudiantes?",
-    answer: "La mayoría de los estudiantes vive con familias anfitrionas neozelandesas (Homestay) rigurosamente auditadas por el departamento de bienestar de cada colegio y por la policía neozelandesa. Incluye habitación individual, todas las comidas y un ambiente de contención familiar inmejorable."
+    answer: "La mayoría de los estudiantes vive con familias anfitrionas neozelandesas (Homestay) rigurosamente auditadas por el departamento de bienestar de cada colegio. Incluye habitación individual, todas las comidas y un ambiente de contención familiar inmejorable."
   }
 ];
