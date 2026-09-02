@@ -27,10 +27,10 @@ export default function WhyNetwork() {
               <HeartHandshake className="w-7 h-7" />
             </div>
             <h3 className="text-xl font-bold text-network-blue-dark">
-              Acompañamiento Personalizado 360°
+              Acompañamiento Personalizado
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed">
-              No sos un número de expediente. Te asignamos un asesor educativo dedicado que acompaña a la familia antes de partir, durante toda la estadía en Nueva Zelanda y al regresar.
+              No sos un número de expediente. Acompañamos a la familia y al estudiante antes de partir, durante toda la estadía en Nueva Zelanda y al regresar.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function WhyNetwork() {
               Gestión Integral de Visas y Trámites
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Nos encargamos de todo el papeleo: Student Visa ante la Embajada e Inmigración de Nueva Zelanda, seguro médico internacional obligatorio y homologación de materias.
+              Nos encargamos de todo el papeleo: Presentación de la Student Visa ante inmigración de NZ en caso de aplicar, seguro médico internacional obligatorio.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default function WhyNetwork() {
               Vínculo Directo con los Colegios
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Trabajamos sin intermediarios fantasmas. Mantenemos una relación estrecha y constante con los directores internacionales de las mejores escuelas secundarias de Nueva Zelanda.
+              Mantenemos una relación estrecha y constante con los directores internacionales de las mejores escuelas secundarias de Nueva Zelanda.
             </p>
           </div>
 
