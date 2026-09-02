@@ -23,7 +23,7 @@ export const schoolsData = [
     city: "Auckland Norte (North Shore)",
     region: "Auckland",
     type: "Mixto (Co-educacional)",
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+    image: "/assets/long-bay-college.jpg",
     badgeColor: "bg-emerald-600",
     highlight: "Campus moderno frente a la costa y mar",
     description: "Situado junto al Parque Regional y la playa de Long Bay, combina un rendimiento académico sobresaliente con programas de ciencias marinas, diseño digital y deportes acuáticos.",
