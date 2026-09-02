@@ -41,7 +41,7 @@ export const schoolsData = [
     city: "Auckland Oeste (Henderson)",
     region: "Auckland",
     type: "Exclusivo Varones (Boys' School)",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+    image: "/assets/liston-college.jpg",
     badgeColor: "bg-indigo-600",
     highlight: "Formación de liderazgo y valores sólidos",
     description: "Colegio de varones enfocado en el desarrollo del carácter, la superación académica y el trabajo en equipo, brindando un entorno estructurado y motivador.",
