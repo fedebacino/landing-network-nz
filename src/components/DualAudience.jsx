@@ -18,7 +18,7 @@ export default function DualAudience() {
             La mayor aventura para los chicos.
           </h2>
           <p className="text-slate-600 text-base sm:text-lg mt-4">
-            Sabemos que la decisión de estudiar en el exterior involucra distintas prioridades. Por eso, el programa de Nueva Zelanda con Network está diseñado para responder a todas.
+            Sabemos que la decisión de estudiar en el exterior involucra distintas prioridades. Por eso es que te invitamos a participar de este evento.
           </p>
 
           {/* Persona Filter Tabs for Mobile / Quick focus */}
@@ -76,7 +76,7 @@ export default function DualAudience() {
                 </div>
 
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
-                  Garantizamos que tu hijo/a esté seguro, contenido y respaldado las 24 horas del día, con un plan académico que se valida al 100% en Argentina.
+                  Garantizamos que tu hijo/a esté seguro y contenido.
                 </p>
 
                 <div className="space-y-4">
@@ -91,7 +91,7 @@ export default function DualAudience() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-network-blue shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-800 text-sm font-bold">Familias Homestay Verificadas por la Policía</strong>
+                      <strong className="block text-slate-800 text-sm font-bold">Familias Homestay Verificadas</strong>
                       <span className="text-slate-600 text-xs sm:text-sm">Cada familia anfitriona es inspeccionada y monitoreada rigurosamente por el departamento de bienestar escolar de cada colegio.</span>
                     </div>
                   </div>
@@ -99,16 +99,8 @@ export default function DualAudience() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-network-blue shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-800 text-sm font-bold">Convalidación Oficial de Materias</strong>
-                      <span className="text-slate-600 text-xs sm:text-sm">Gestionamos la homologación ante el Ministerio de Educación argentino para que no pierdan el año escolar.</span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-network-blue shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="block text-slate-800 text-sm font-bold">Acompañamiento 360° de Network</strong>
-                      <span className="text-slate-600 text-xs sm:text-sm">Desde la tramitación de visas hasta seguro médico de cobertura internacional y seguimiento semanal durante el viaje.</span>
+                      <strong className="block text-slate-800 text-sm font-bold">Acompañamiento integral de Network</strong>
+                      <span className="text-slate-600 text-xs sm:text-sm">Desde la tramitación de visas hasta seguro médico de cobertura internacional y seguimiento durante el viaje.</span>
                     </div>
                   </div>
                 </div>
@@ -142,7 +134,7 @@ export default function DualAudience() {
                 </div>
 
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
-                  Viví el mejor año de tu vida: hacé amigos de todo el mundo, hablá inglés fluido y elegí materias prácticas que acá no existen.
+                  Viví el mejor año de tu vida: hacé amigos de todo el mundo, hablá inglés fluido y elegí materias diferentes.
                 </p>
 
                 <div className="space-y-4">
@@ -150,15 +142,15 @@ export default function DualAudience() {
                     <CheckCircle2 className="w-5 h-5 text-network-green-hover shrink-0 mt-0.5" />
                     <div>
                       <strong className="block text-slate-800 text-sm font-bold">Materias Prácticas e Innovadoras</strong>
-                      <span className="text-slate-600 text-xs sm:text-sm">Robótica, Fotografía y Medios Audiovisuales, Ciencias Marinas, Diseño 3D, Gastronomía, Música y Outdoor Education.</span>
+                      <span className="text-slate-600 text-xs sm:text-sm">Robótica, Fotografía y Medios Audiovisuales, Carpinteria, Diseño 3D, Gastronomía, Música y Outdoor Education.</span>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-network-green-hover shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-slate-800 text-sm font-bold">Deportes de Élite y Vida al Aire Libre</strong>
-                      <span className="text-slate-600 text-xs sm:text-sm">Rugby (con la mística Kiwi), surf, esquí en nieve polvo, hockey, mountain bike, kayak y senderismo en paisajes de película.</span>
+                      <strong className="block text-slate-800 text-sm font-bold">Deportes y Vida al Aire Libre</strong>
+                      <span className="text-slate-600 text-xs sm:text-sm">Rugby (con la mística Kiwi), hockey, volley y senderismo en paisajes de película.</span>
                     </div>
                   </div>
 
@@ -166,7 +158,7 @@ export default function DualAudience() {
                     <CheckCircle2 className="w-5 h-5 text-network-green-hover shrink-0 mt-0.5" />
                     <div>
                       <strong className="block text-slate-800 text-sm font-bold">Inglés 100% Fluido y Natural</strong>
-                      <span className="text-slate-600 text-xs sm:text-sm">Vas a pensar y soñar en inglés viviendo el día a día con amigos locales y de decenas de países.</span>
+                      <span className="text-slate-600 text-xs sm:text-sm">Vas a pensar y soñar en inglés viviendo el día a día con amigos locales y de otros países.</span>
                     </div>
                   </div>
 
