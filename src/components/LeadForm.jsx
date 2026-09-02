@@ -78,41 +78,69 @@ export default function LeadForm({ selectedSchool = null }) {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validate()) return;
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
-      // Save lead to local storage as demo database
-      try {
-        const existing = JSON.parse(localStorage.getItem('network_event_leads') || '[]');
-        const leadRecord = {
-          ...formData,
-          id: Date.now(),
-          createdAt: new Date().toISOString()
-        };
-        localStorage.setItem('network_event_leads', JSON.stringify([leadRecord, ...existing]));
-      } catch (err) {
-        console.error("Local storage save error", err);
-      }
+    const submissionPayload = {
+      fecha: new Date().toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' }),
+      padre_tutor: formData.parentName,
+      estudiante: formData.studentName,
+      whatsapp: formData.phone,
+      email: formData.email,
+      ano_actual: formData.currentGrade,
+      ano_viaje: formData.targetYear,
+      duracion: formData.duration,
+      colegios_interes: formData.interestedSchools.join(', '),
+      notas: formData.notes
+    };
 
-      setSubmittedData({ ...formData });
-      setIsSubmitting(false);
-      setIsSuccess(true);
+    // 1. Guardar localmente como respaldo
+    try {
+      const existing = JSON.parse(localStorage.getItem('network_event_leads') || '[]');
+      const leadRecord = {
+        ...formData,
+        id: Date.now(),
+        createdAt: new Date().toISOString()
+      };
+      localStorage.setItem('network_event_leads', JSON.stringify([leadRecord, ...existing]));
+    } catch (err) {
+      console.error("Local storage save error", err);
+    }
 
-      // Trigger Confetti Celebration
+    // 2. Enviar a Google Sheets vía Webhook
+    const sheetsUrl = import.meta.env.VITE_GOOGLE_SHEETS_URL || "";
+    if (sheetsUrl) {
       try {
-        confetti({
-          particleCount: 120,
-          spread: 70,
-          origin: { y: 0.6 }
+        await fetch(sheetsUrl, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(submissionPayload),
         });
-      } catch (e) {
-        // Fallback if confetti fails
+      } catch (err) {
+        console.warn("Error enviando a Google Sheets:", err);
       }
-    }, 800);
+    }
+
+    setSubmittedData({ ...formData });
+    setIsSubmitting(false);
+    setIsSuccess(true);
+
+    // Trigger Confetti Celebration
+    try {
+      confetti({
+        particleCount: 120,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+    } catch (e) {
+      // Fallback
+    }
   };
 
   // Google Calendar Event Link
