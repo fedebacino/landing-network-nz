@@ -41,7 +41,7 @@ export default function SchoolsGrid({ onSelectSchool }) {
             Conocé a las 6 Escuelas de Nueva Zelanda
           </h2>
           <p className="text-slate-600 text-base sm:text-lg mt-4">
-            Cada colegio tiene una personalidad única: desde campus costeros frente al mar y centros de deporte aventura, hasta colegios tradicionales con academias de rugby y artes de clase mundial.
+            Cada colegio esta ubicado en una zona diferente y cuenta con una personalidad única.
           </p>
 
           {/* Filter Pills */}
