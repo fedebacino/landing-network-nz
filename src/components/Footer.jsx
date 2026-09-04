@@ -153,15 +153,40 @@ export default function Footer() {
           <p>
             © {new Date().getFullYear()} Network (Viajes | Turismo | Educación). Todos los derechos reservados.
           </p>
-          <button
-            onClick={scrollToTop}
-            className="flex items-center gap-1.5 text-network-green hover:text-network-green-light font-semibold transition-colors"
-          >
-            <span>Volver arriba</span>
-            <ArrowUp className="w-3.5 h-3.5" />
-          </button>
+          <div className="flex items-center gap-1.5 text-xs text-blue-200/90">
+            <span>creado por</span>
+            <a
+              href="https://wa.me/5491144053995?text=Hola%20Qwark!%20Vengo%20desde%20la%20landing%20de%20Network%20Eventos"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="qwark-glow-link"
+              title="Contactar a QWARK por WhatsApp"
+            >
+              QWARK
+            </a>
+          </div>
         </div>
       </div>
+
+      <style>{`
+        .qwark-glow-link {
+          color: #CBD5E1;
+          font-weight: 850;
+          letter-spacing: 0.08em;
+          text-decoration: none;
+          padding: 0 0.25rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          display: inline-block;
+        }
+
+        .qwark-glow-link:hover {
+          color: #38BDF8;
+          text-shadow: 0 0 10px rgba(56, 189, 248, 0.95),
+                       0 0 22px rgba(56, 189, 248, 0.75),
+                       0 0 36px rgba(0, 180, 216, 0.55);
+          transform: translateY(-1px) scale(1.08);
+        }
+      `}</style>
     </footer>
   );
 }
